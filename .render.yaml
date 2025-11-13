@@ -1,12 +1,1 @@
-services:
-  - type: web
-    name: suwayomi-server
-    env: docker
-    plan: free
-    repo: https://github.com/Iamzarknox/suwayo
-    dockerfilePath: ./Dockerfile
-    autoDeploy: true
-    disk:
-      name: suwayomi-data
-      mountPath: /app/data
-      sizeGB: 1
+
